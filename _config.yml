@@ -1,0 +1,24 @@
+# Site Build Settings
+
+future: false
+
+url: https://johnmoise.xyz
+
+exclude:
+  - dependencies/
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-sitemap, jekyll-feed, jekyll-seo-tag] # jekyll-paginate
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		        'John Moïse'
+# description:        ''
+# author:             'John Moïse'
+
+  # RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
+

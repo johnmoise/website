@@ -1,0 +1,86 @@
+/*
+  Site container
+*/
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 615px;
+}
+
+.content-container {
+  margin-bottom: 4rem;
+}
+
+/*48em*/
+
+@media (max-width: $container-responsive-width) {
+  .container {
+    width: 90vw;
+  }
+}
+
+/*
+  Header
+*/
+
+.header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 4rem;
+  font-family: $sans-serif-font-family;
+}
+
+.header-title {
+  font-size: 2rem;
+  text-decoration: none;
+  color: $body-color;
+}
+
+.header-subtitle {
+  color: $light-gray-color;
+}
+
+/*
+  Menu
+*/
+
+.menu {
+  padding-top: 0.5rem;
+  display: block;
+}
+
+.menu-content {
+  float: left;
+}
+
+.menu-content a {
+  text-decoration: none;
+  color: $light-gray-color;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+.menu-content a:hover {
+    color: black;
+}
+
+
+.social-icons {
+  float: right;
+}
+
+.social-icons a {
+  color: $light-gray-color;
+  font-size: 1rem;
+}
+
+@media (max-width: $elements-responsive-width) {
+  .social-icons {
+    float: left;
+    padding-top: 0px;
+  }
+  .menu-content {
+    margin-bottom: 5px;
+  }
+}

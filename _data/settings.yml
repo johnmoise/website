@@ -1,0 +1,14 @@
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: ''
+
+menu:
+- {name: 'Blog',   url: 'blog.html'}
+- {name: 'Publications', url: 'pubs.html'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'instagram',   link: 'https://www.instagram.com/jp.moise/'}
+- {icon: 'github',     link: 'https://github.com/johnmoise'}
+- {icon: 'rss-square', link: '/feed.xml'}
+
+post_date_prefix: 'Written on'
