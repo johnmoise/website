@@ -78,3 +78,29 @@ th, td {
   padding: 15px;
   text-align: left;
 }
+
+/* Images and Titles */
+
+figure {
+    counter-increment: figure;
+    margin: 1.5rem auto;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+    width: var(--width);
+    max-width: 70%;
+}
+
+figcaption {
+    text-align: center;
+    text-wrap: balance;
+    margin: 0.3rem auto 1.5rem auto;
+}
+
+figcaption:before {
+    content: 'Figure ' counter(figure) '. ';
+    font-weight: bold;
+    display: inline;
+}

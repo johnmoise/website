@@ -4,7 +4,6 @@ layout: post
 date: 2023-06-17
 tags: combinatorics 
 published: true
-image: forest.jpg
 ---
 
 A few weeks ago, I was preparing for the pharmacology NBME subject examination

@@ -2,8 +2,6 @@
 
 future: false
 
-url: https://johnmoise.xyz
-
 exclude:
   - dependencies/
 
@@ -15,8 +13,9 @@ plugins:             [jekyll-sitemap, jekyll-feed, jekyll-seo-tag] # jekyll-pagi
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		        'John Moïse'
-# description:        ''
-# author:             'John Moïse'
+description:        'A blog.'
+url:                https://johnmoise.xyz
+author:             'John Moïse'
 
   # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:

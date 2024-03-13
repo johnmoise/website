@@ -7,7 +7,6 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'instagram',   link: 'https://www.instagram.com/jp.moise/'}
 - {icon: 'github',     link: 'https://github.com/johnmoise'}
 - {icon: 'rss-square', link: '/feed.xml'}
 
