@@ -10,4 +10,4 @@ social:
 - {icon: 'github',     link: 'https://github.com/johnmoise'}
 - {icon: 'rss-square', link: '/feed.xml'}
 
-post_date_prefix: 'Written on'
+post_date_prefix: 'Posted'

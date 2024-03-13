@@ -19,11 +19,7 @@ body {
   }
 }
 
-h1{
-  font-size: 2rem;
-}
-
-h1 a {
+h2 a {
   text-decoration: none;
 }
 
@@ -56,8 +52,10 @@ blockquote {
   line-height: 1.5;
 }
 
-hr {
-  border-top: 1px solid $extra-light-gray-color;
+hr.styled {
+    border: 0;
+    height: 1px;
+    background: $light-gray-color;
 }
 
 /*
